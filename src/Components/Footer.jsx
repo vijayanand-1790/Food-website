@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div>
-            <div className='md:px-14 px-6 bg-black text-white py-15 flex md:flex-row flex-col justify-between items-center leading-10'>
+        <div className='bg-black'>
+            <div className=' max-w-7xl mx-auto md:px-14 px-6 bg-black text-white py-15 flex md:flex-row flex-col justify-between items-center leading-10'>
                 <div className='flex flex-col md:max-w-1/4 max-w-120'>
                     <h1 className='text-2xl font-bold'>Foodie</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -33,7 +33,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <p className='flex md:pl-14 pl-5 text-white bg-black pb-12 pt-5'>Copyright @Foodie - 2025. All Rights Reserved.</p>
+            <p className='md:text-center md:px-0 px-2 text-white bg-black pb-12 pt-5'>Copyright @Foodie - 2025. All Rights Reserved.</p>
         </div>
     )
 }

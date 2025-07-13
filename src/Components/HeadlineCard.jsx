@@ -6,7 +6,7 @@ import HeadlineCard4 from "../assets/HeadlineCard4.jpg";
 
 const HeadlineCard = () => {
   return (
-    <div className="grid md:grid-cols-3 grid-cols-1 md:px-10 px-6 pt-10 mx-auto gap-6">
+    <div className="md:max-w-7xl grid md:grid-cols-3 grid-cols-1 md:px-0 px-6 pt-10 mx-auto gap-6">
       <div className="relative rounded-xl">
         <div className="absolute w-full h-full text-white bg-black/50">
           <p className="font-bold md:text-3xl text-2xl pl-3 pt-4">Sun's Out, BOGO's Out</p>
